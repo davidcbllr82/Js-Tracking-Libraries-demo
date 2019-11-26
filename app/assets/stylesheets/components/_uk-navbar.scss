@@ -1,0 +1,22 @@
+//===== UNDERLINE_NAV_BAR =====//
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 96%;
+  transform: scaleX(0);
+  height: 6px;
+  bottom: -7px;
+  left: 0;
+  background: linear-gradient(to left, #43c6ac, #f8ffae);
+  transform-origin: bottom right;
+  transition: transform 0.45s ease-out;
+}
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

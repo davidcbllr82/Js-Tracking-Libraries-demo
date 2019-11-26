@@ -1,4 +1,16 @@
 class PagesController < ApplicationController
-  def home
+  def hands
+  end
+
+  def face
+  end
+
+  def object
+  end
+
+  def games
+  end
+
+  def about
   end
 end

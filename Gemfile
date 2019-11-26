@@ -14,7 +14,7 @@ gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
-
+gem "rails-uikit", git: 'git://github.com/nicbet/rails-uikit.git'
 group :development do
   gem 'web-console', '>= 3.3.0'
 end
